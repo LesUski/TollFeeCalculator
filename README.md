@@ -1,2 +1,2 @@
 # TollFeeCalculator
-av Lezsek och Gustav
+av Leszek och Gustav
