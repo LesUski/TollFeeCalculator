@@ -18,7 +18,7 @@ class TollFeeCalculatorTest {
     }
 
     @Test
-    void dateTimeParseException() {
+    void fileNotFoundException() {
         File file = new File("src/com/kyh/secondText");
 
         assertThrows(FileNotFoundException.class, () -> TollFeeCalculator.tollFeeCalculator(file));
