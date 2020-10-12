@@ -11,14 +11,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class TollFeeCalculatorTest {
 
     @Test
-    void throwsException() throws FileNotFoundException {
+    void throwsException() {
         File file = new File("src/com/kyh/Lab.txt");
 
         assertThrows(FileNotFoundException.class, () -> TollFeeCalculator.tollFeeCalculator(file));
     }
 
     @Test
-    void dateTimeParseException() throws FileNotFoundException {
+    void dateTimeParseException() {
         File file = new File("src/com/kyh/secondText");
 
         assertThrows(FileNotFoundException.class, () -> TollFeeCalculator.tollFeeCalculator(file));
